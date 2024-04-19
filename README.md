@@ -14,3 +14,10 @@ Este proyecto consiste en el desarrollo de una red social que utiliza la geoloca
   - Añadida la funcionalidad de enviar y recibir mensajes con geolocalización incorporada.
   - Base de datos mudada a una AWS RDS PostgreSQL con una caché en ElastiCache para ayudar con latencia.
   - Creación de un bucket S3 para gestionar imágenes de la aplicación.
+- **19/08/24**:
+  - Eliminado un bug que enviaba múltiples mensajes simultáneamente.
+  - Eliminado un bug que permitía enviar mensajes completamemente vacíos.
+  - Eliminado un bug en el cual la triangulación de la posición se guardaba como 0 provocando problemas en la visualización de mensajes
+  - Eliminado un bug en el que se enviaban mensajes con inyeccion HTML. 
+  - Nueva página de login con nuevas validaciones tanto en back como en frontend. 
+
