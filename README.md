@@ -22,4 +22,5 @@ Este proyecto consiste en el desarrollo de una red social que utiliza la geoloca
   - Nueva página de login con nuevas validaciones tanto en back como en frontend. 
 - **20/08/24**:
   - Eliminado un bug en el que el usuario introducía credenciales equivocadas y se quedaba la pantalla en un error no controlado.
+  - Creada la funcionalidad de "LIKE" para que el usuario pueda indicar sus posts favoritos. 
 
