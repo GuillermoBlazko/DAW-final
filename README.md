@@ -20,4 +20,6 @@ Este proyecto consiste en el desarrollo de una red social que utiliza la geoloca
   - Eliminado un bug en el cual la triangulación de la posición se guardaba como 0 provocando problemas en la visualización de mensajes
   - Eliminado un bug en el que se enviaban mensajes con inyeccion HTML. 
   - Nueva página de login con nuevas validaciones tanto en back como en frontend. 
+- **19/08/24**:
+  - Eliminado un bug en el que el usuario introducía credenciales equivocadas y se quedaba la pantalla en un error no controlado.
 
